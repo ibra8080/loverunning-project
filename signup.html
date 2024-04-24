@@ -34,7 +34,38 @@
         </nav>
     </header>
     <!-- Main Content -->
-    <main>Main content Sign up</main>
+    <main id="signup-main">
+        <section id="signup">
+            <form action="https://formdump.codeinstitute.net" id="signup-form">
+                
+                <h2><i class="fa-solid fa-heart-pulse"></i>Let’s get you signed up!</h2>
+                
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" required class="text-input"><br>
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" required class="text-input"><br>
+                <label for="email-address">Email Address</label>
+                <input type="text" id="email-address" name="email-address" required class="text-input"><br>
+
+                <div class="radio-buttons">
+                    <div>
+                        <label for="road">Road</label>
+                        <input type="radio" id="road" name="running_preference" value="road" class="radio-buttons" required checked><br>
+                    </div>
+                    <div>
+                        <label for="trail">Trail</label class="radio-buttons">
+                        <input type="radio" id="road" name="running_preference" value="trail" class="radio-buttons" required checked><br>
+                    </div>
+                
+                    <div>
+                        <label for="both">Both</label class="radio-buttons">
+                        <input type="radio" id="both" name="running_preference" value="both" class="radio-buttons" required checked><br>
+                    </div>
+                </div>        
+                <button type="submit" class="join-button">Let's Run!</button>
+            </form>
+        </section>
+    </main>
     <!-- Footer -->
     <footer>
         <ul id="social-networks">
